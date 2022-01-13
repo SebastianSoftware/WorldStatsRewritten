@@ -45,7 +45,10 @@ public final class Main extends JavaPlugin {
     public void onDisable() {
         getLogger().info("WorldStats disabled");
     }
-
+   File worldoverworld = new File("/world/region");
+   File worldnether = new File("/world_nether/DIM-1/region");
+   File worldend = new File("/world_the_end/DIM1/region");
+    if()
     private long list() {
         long l = 0L;
         for (String s : getConfig().getStringList("Worlds")) {
